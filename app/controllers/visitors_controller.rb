@@ -19,4 +19,6 @@ class VisitorsController < ApplicationController
 	def secure_params
 		params.require(:visitor).permit(:email)
 	end
+
+end
 	
